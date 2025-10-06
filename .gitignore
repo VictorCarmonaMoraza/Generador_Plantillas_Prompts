@@ -1,0 +1,27 @@
+# 🧠 Archivos y carpetas a ignorar por Git
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos de configuración de entorno
+.env
+api_key.txt
+
+# Caché y compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs o temporales
+*.log
+*.tmp
